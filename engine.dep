@@ -1,0 +1,8 @@
+# Microsoft Developer Studio Generated Dependency File, included by engine.mak
+
+.\engine.cpp : \
+	"..\..\fidos.h"\
+	"..\3ds.h"\
+	"..\GGATE.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

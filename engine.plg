@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: engine - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\REGi\USTAWI~1\Temp\RSP152.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/engine.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\OpenGL\GGate Engine\OpenGL\engine.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\REGi\USTAWI~1\Temp\RSP152.tmp" 
+Creating temporary file "C:\DOCUME~1\REGi\USTAWI~1\Temp\RSP153.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/engine.pdb" /debug /machine:I386 /out:"Debug/engine.exe" /pdbtype:sept 
+".\Debug\engine.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\REGi\USTAWI~1\Temp\RSP153.tmp"
+<h3>Output Window</h3>
+Compiling...
+engine.cpp
+e:\opengl\ggate engine\opengl\fidos.h(116) : warning C4700: local variable 'buf' used without having been initialized
+e:\opengl\ggate engine\ggate.h(716) : warning C4700: local variable 'str' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+engine.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
